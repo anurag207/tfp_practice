@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: yellow;
+}
+.parent{
+    background-color: orange;
+    padding: 16px;
+    box-sizing: content-box;
+    height: 100px;
+    width: 100px;
+}
+.child{
+    background-color: lime;
+    box-sizing: content-box;
+    padding: 16px;
+    height: 132px;
+    width:132px;
+}
+
+.container{
+    width: 100vw;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 16px;
+
+}
+.container-child{
+    background-color: red;
+    height: 50px;
+}
+.container-child.new-child{
+    box-sizing: content-box;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 0. 	DO NOT USE !important anywhere	
+1. 	 Remove all padding and margins for the entire page.
+	2.	Set the background color of the page to yellow.
+	3.	Create a parent container with an orange background.
+	4.	Ensure the parent container includes padding of 16px inside its boundaries.
+	6.	Inside the parent, child element has a lime background and 16px padding.
+	8.	Make a container that stretches the full width of the viewport screen.
+	9.	Add a background color of aqua to the full-width container.
+	10.	Include padding of 16px inside the container.
+	11.	Ensure padding is included in the container’s total width.
+	12.	Inside the container, create another child element with a red background.
+	13.	Set the height of the red child to 50px.
+	14.	Create a new child element that takes up 90% of its parent’s usable width.
+ */
