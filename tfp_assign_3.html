@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form
+    </h1>
+    <form  action="./thankyou.html">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name"><br><br>
+    <!-- <input type="text" id="name" value=""><br><br> -->
+    <label for="email">Email:</label>
+    <input type="email" id="email"  name="email"><br><br>
+    <label for="passw">Password:</label>
+    <input type="password" id="passw"  name="pass1"><br><br>
+    <span>Gender:</span>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+    <span>Hobbies:</span><br>
+    <input type="checkbox" id="read" name="hobbies" value="c1">
+    <label for="read">Reading</label><br>
+    <input type="checkbox" id="travel" name="hobbies" value="c2">
+    <label for="travel">Travelling</label><br>
+    <input type="checkbox" id="cook" name="hobbies" value="c3">
+    <label for="cook">Cooking</label><br>
+    <input type="checkbox" id="sport" name="hobbies" value="c4">
+    <label for="sport">Sports</label><br><br>
+    <label for="city">City:</label>
+  <select name="city" id="city">
+    <option value="Select Your City">Select Your City</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Hyderabad">Hyderabad</option>
+    <option value="Pune">Pune</option>
+  </select><br><br>
+  <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" name="dob"><br><br>
+  <label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="10-digit number" pattern="[0-9]{10}" required><br><br>
+  <div><label for="w3review">Address:</label></div>
+<textarea id="address" name="address1" rows="4" cols="50" placeholder="Enter your address">
+</textarea><br>
+<input type="submit" value="Submit">
+
+    
+
+</form>
+</body>
+</html>
