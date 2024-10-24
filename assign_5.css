@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+}
+.parent{
+    padding:16px;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap:32px;
+}
+.button{
+    padding:10px;
+    font-size: 15px; 
+    border-top-right-radius: 20px;             
+    border-bottom-left-radius: 20px;
+    transition: all 500ms ease-in-out;
+    border: 2px solid black;
+}
+.button:hover
+{
+
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+     border: 2px solid lightblue;
+}
+.circle
+{
+    /* width: 20px; */
+    height: 30px;
+    width :30px;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid brown;
+    border-radius: 50%;
+    /* background-color: yellow; */
+    transition: all 500ms ease-in-out;
+}
+.circle:hover
+{
+    border: 5px dashed brown;
+}
+.searchbar
+{
+    padding: 16px;
+    height: 32px;
+    width : 30.93vw;
+    max-width: 300px;
+    /* min-width: 200px; */
+    border-radius: 20px;
+}
+
